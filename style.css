@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@media (max-width: 650px) {
+    .container {
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 10px;
+    }
+}
+h1 {
+    font-family: 'Rubik Dirt', cursive;
+}
+body {
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    font-weight: normal;
+
+}
+.container {
+    max-width: 850px;
+    margin: auto;
+    padding-top: 30px;
+}
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+.info-texte {
+    padding: 15px;
+}
+.info-text h3 {
+    margin-bottom: 15px;
+}
+.info-text h4 {
+    margin-bottom: 15px;
+}
+.avatar {
+    width: 155px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+.card {
+    border-radius: 15px;
+    background: rgb(71, 214, 224);
+    padding: 15px 20px;
+}
+a {
+    color: rgb(109, 109, 119);
+    padding: 0px 5px 0px 0px;
+    text-decoration: none;
+    border-right: 2px solid rgb(83, 83, 83);
+}
+a:visited {
+    color: blueviolet;
+}
+a:hover {
+    text-decoration: underline;
+}
+.form h4 {
+    text-align: center;
+}
+.btn {
+    border-radius: 5px;
+    border: none;
+    padding: 15px 20px;
+    margin: 5px auto;
+    background: #111;
+    color: antiquewhite;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+.form-row {
+    margin-bottom: 10px;
+}
+.form-row .group {
+    display: inline-block;
+    margin-right: 20px;
+    width: calc(50% - 20px);
+}
+.form-row .group:last-child {
+    margin-right: 0;
+}
+.group label {
+    display: block;
+    font-size: 14px;
+    color: #000;
+}
+.group input,
+.group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc ;
+    color:#000;
+    padding: 15px 0 15px;
+    outline: none;
+    font-family: inherit;
+}
