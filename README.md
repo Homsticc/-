@@ -1,5 +1,4 @@
 # Моё резюме
 
 ## Результат можете посмотреть здесь
-
-[Моя первая работа] {https://homsticc.github.io/resume/}
+https://homsticc.github.io/resume/
