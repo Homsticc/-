@@ -2,4 +2,4 @@
 
 ## Результат можете посмотреть здесь
 
-[Моя первая работа]{https://homsticc.github.io/resume/}
+[Моя первая работа] {https://homsticc.github.io/resume/}
